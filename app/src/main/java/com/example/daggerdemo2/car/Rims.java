@@ -1,4 +1,4 @@
-package com.example.daggerdemo2;
+package com.example.daggerdemo2.car;
 
 public class Rims {
     //We don't own this class so we can't annotate it with @Inject.

@@ -1,6 +1,4 @@
-package com.example.daggerdemo2;
-
-import javax.inject.Inject;
+package com.example.daggerdemo2.car;
 
 //Suppose this was from 3rd part library
 public class Wheels {

@@ -1,4 +1,4 @@
-package com.example.daggerdemo2;
+package com.example.daggerdemo2.car;
 
 import android.util.Log;
 
@@ -25,6 +25,7 @@ public class Car {
     //Filed and method injection are only automatically executed if we also do a constructions injection.
 
     public void drive(){
+        engine.start();
         Log.d(TAG, "driving....");
     }
 }

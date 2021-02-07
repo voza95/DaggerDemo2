@@ -1,4 +1,8 @@
-package com.example.daggerdemo2;
+package com.example.daggerdemo2.dagger;
+
+import com.example.daggerdemo2.car.Rims;
+import com.example.daggerdemo2.car.Tires;
+import com.example.daggerdemo2.car.Wheels;
 
 import dagger.Module;
 import dagger.Provides;
@@ -20,7 +24,7 @@ public class WheelsModule {
     }
 
     @Provides
-    Wheels wheels(Rims rims,Tires tires){
+    Wheels wheels(Rims rims, Tires tires){
         return new Wheels(rims, tires);
     }
 
